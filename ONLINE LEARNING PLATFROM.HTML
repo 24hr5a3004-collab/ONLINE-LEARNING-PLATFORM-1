@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Online Learning Platform</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <h1>LearnHub</h1>
+
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Courses</a></li>
+      <li><a href="#">Quiz</a></li>
+      <li><a href="#">Progress</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+
+    <div class="hero-text">
+      <h2>Learn Anytime, Anywhere</h2>
+
+      <p>
+        Online courses with videos, quizzes and progress tracking.
+      </p>
+
+      <button>Start Learning</button>
+    </div>
+
+  </section>
+
+  <!-- Courses Section -->
+  <section class="courses">
+
+    <h2>Popular Courses</h2>
+
+    <div class="course-container">
+
+      <div class="card">
+        <h3>Web Development</h3>
+        <p>HTML, CSS, JavaScript basics.</p>
+      </div>
+
+      <div class="card">
+        <h3>Python Programming</h3>
+        <p>Learn Python from beginner level.</p>
+      </div>
+
+      <div class="card">
+        <h3>Machine Learning</h3>
+        <p>Introduction to AI and ML concepts.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Video Section -->
+  <section class="videos">
+
+    <h2>Video Lesson</h2>
+
+    <video controls width="700">
+      <source src="sample.mp4" type="video/mp4">
+    </video>
+
+  </section>
+
+  <!-- Quiz Section -->
+  <section class="quiz">
+
+    <h2>Quick Quiz</h2>
+
+    <p>Which language is used for web styling?</p>
+
+    <button onclick="checkAnswer('HTML')">HTML</button>
+    <button onclick="checkAnswer('CSS')">CSS</button>
+    <button onclick="checkAnswer('Python')">Python</button>
+
+    <h3 id="result"></h3>
+
+  </section>
+
+  <!-- Progress Section -->
+  <section class="progress-section">
+
+    <h2>Course Progress</h2>
+
+    <div class="progress-bar">
+      <div class="progress"></div>
+    </div>
+
+  </section>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
