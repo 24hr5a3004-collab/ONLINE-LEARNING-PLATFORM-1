@@ -15,4 +15,4 @@
 ##YOU HAVE TO ENTER DESCRIOTION OF YOUR TASK(AND IT SHOULD NOT BE LESS THAN 500 WORDS)
 
 OUTPUT:
-http://127.0.0.1:5500/ONLINE%20LEARNING%20%20PLATFORM.HTML#
+<img width="1920" height="1020" alt="Image" src="https://github.com/user-attachments/assets/943acf9e-06ce-4eef-aae1-e1c9734082aa" />
